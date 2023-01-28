@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: darkgrey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+.nav{
+width: 70%;
+margin: 0 auto;
+
+}
+  
+ul,a{
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 20px;
+}
+a{
+    cursor: pointer;
+}
+ li{
+    display: inline-block;
+    padding: 0 20px;
+ }
+ .content{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
+
+ }
+ img{
+  
+    border-radius: 90%;
+    border: solid green;
+ }
+ .banner{
+    padding: 20px;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+h1,h3,label,span{
+    color:gray;
+}
+.btn{
+    background-color: grey;
+    outline: rgba(0, 0, 0, 0.164);
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    border-style: none;
+    border-radius: 6%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn:hover{
+  opacity: 0.4; 
+
+ 
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.boton{
+    width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.boton:hover{
+    background-color: darkgreen;
+}
+.cards{
+
+    color: rgba(255, 255, 255, 0.274);
+    padding: 50px 20px;
+}
+.cards .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.cards h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.cards .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.cards .contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+.cards .fila{
+    display: flex;
+}
+.cards .fila .col
+{
+    width: 50%;
+}
+.cards .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.cards .fila .col ul{
+    list-style: none;
+}
+.cards .fila .col ul li{
+    margin: 12px 0;
+}
+.cards .fila .col ul li strong{
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+.cards .fila .col ul li span{
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cards button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.mode{
+   text-decoration: none;
+   list-style: none;
+   border: none;
+   padding: 7px;
+   background-color: darkgrey;
+   cursor: pointer;
+
+}
+body.dark{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #fff;
+}
+.habil{
+ 
+    color: rgba(255, 255, 255, 0.185);
+    padding: 50px 20px;
+}
+.habil .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.habil h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.habil .fila{
+    display: flex;
+}
+.habil .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+.habil .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.habil .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
