@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .header{
@@ -42,8 +43,8 @@ a{
  }
  img{
   
-    border-radius: 90%;
-    border: solid green;
+    border-radius: 50%;
+    border: solid black
  }
  .banner{
     padding: 20px;
@@ -56,6 +57,7 @@ h1,h3,label,span{
     color:gray;
 }
 .btn{
+    margin-left: 4px;
     background-color: grey;
     outline: rgba(0, 0, 0, 0.164);
     padding: 10px 20px;
@@ -68,8 +70,8 @@ h1,h3,label,span{
     display: inline-block;
 }
 .btn:hover{
-  opacity: 0.4; 
-
+background: #ccc;
+color: black;
  
 }
 .forms{
@@ -167,13 +169,21 @@ input{
     z-index: 10;
 }
 .mode{
+  
+    margin-top: 4px;
+    margin-left: 3px;
+    border-radius: 3px;
    text-decoration: none;
    list-style: none;
-   border: none;
+   border: 1px solid black;
    padding: 7px;
    background-color: darkgrey;
    cursor: pointer;
 
+}
+.mode:hover{
+    background: black;
+    color: white;
 }
 body.dark{
     background-color: rgba(0, 0, 0, 0.87);
