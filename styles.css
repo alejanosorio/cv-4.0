@@ -41,10 +41,10 @@ a{
     margin-top: 30px;
 
  }
- img{
+ .img{
   
     border-radius: 50%;
-    border: solid black
+    object-fit: cover;
  }
  .banner{
     padding: 20px;
@@ -169,7 +169,7 @@ input{
     z-index: 10;
 }
 .mode{
-  
+  align-self: center;
     margin-top: 4px;
     margin-left: 3px;
     border-radius: 3px;
@@ -187,39 +187,46 @@ input{
 }
 body.dark{
     background-color: rgba(0, 0, 0, 0.87);
-    color: #fff;
-}
-.habil{
- 
-    color: rgba(255, 255, 255, 0.185);
-    padding: 50px 20px;
-}
-.habil .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.habil h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
+   }
 
-}
-.habil .fila{
-    display: flex;
-}
-.habil .fila .col{
-    width: 50%;
-    padding: 0 20px;
-}
-.habil .fila .col h3{
-    font-size: 28px;
-    font-family: 'Righteous';
-    margin-bottom: 25px;
-}
-.habil .skill > span{
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
+.sobre{
+    color: black;
 }
 
+.experiencie {
+  display: flex;
+ margin: auto;
+  }
+  
+
+  
+  .contenedor-habilidad img {
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .icon {
+    width:90 px;
+    height: 80px;
+  }
+  .text{
+padding: 5px;
+    margin: 5px ;
+    color: blue;
+  }
+  .btn_plus{
+   bottom: 0;
+   margin-left: 15px;
+    text-decoration: none;
+    font: 1em sans-serif;
+   z-index: 1000;
+   padding: 3px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn_plus:hover{
+    background-color: darkgrey;
+    color: white;
+  }
